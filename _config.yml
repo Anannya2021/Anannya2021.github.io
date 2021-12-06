@@ -1,2 +1,3 @@
-name: Anannya, AI Researcher | Writer |
-	markdown: kramdown
+name: Anannya, AI Researcher | Writer 
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title

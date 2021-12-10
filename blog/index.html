@@ -6,6 +6,9 @@ title: Anannya's Blog
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    {% if post.category == 'blog' %}
+				{% if post.hidden != true %}
+					{% include blog-post.html %}
+				{% endif %}
 	  {% endfor %}
 	</ul>

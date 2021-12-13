@@ -8,23 +8,17 @@
 
 ---
 
-#### Part 1
-Problem Framing
+#### General
 
-* [Google ML Problem Framing - https://developers.google.com/machine-learning/problem-framing/](https://developers.google.com/machine-learning/problem-framing/)
-* [ML Canvas](http://www.louisdorard.com/ml-canvas/)
-* [DL Canvas](https://medium.com/intuitionmachine/introducing-the-deep-learning-canvas-a2e80a998f11)
+* [Geocoding In Python](https://github.com/AnannyaNZCA/GeoCode_Reversal_API_Python)
 
-#### Deep Learning
-Demonstrations
+---
 
-* [AI Demos - Tensorflow.js](https://www.tensorflow.org/js/demos/)
-* [AI Demos - Archived Keras.js demos](https://peterleong.github.io/keras-js/)
-* [AI Demos - Google](https://experiments.withgoogle.com/collection/ai)
-* [AI Demos - Microsoft](https://aidemos.microsoft.com/)
-* [Pix2Pix Demo](https://affinelayer.com/pixsrv/)
-* [Deep Fake](https://thispersondoesnotexist.com/)
+#### Blockchain
 
 
+* [Decentralized App executed on Ethereum blockchain system using smart contracts for app logic](https://github.com/AnannyaNZCA/DApp_Ethereum_Car_Mktplace)
+
+---
 
 

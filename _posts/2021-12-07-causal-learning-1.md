@@ -12,39 +12,13 @@ Change in X implies a change in Y, not vice-versa. It is directional NOT bi-dire
 
 X → Y
 
-factor X is referred to as the treatment 
+factor X is referred to as the treatment factor and Y is the outcome we are interested in. Lets suppose that D is binary treatment taking values of 0 or 1, then the average treatment effect is :
 
-factor Y is the outcome we are interested in
+<TO DO- insert image>
 
-Lets suppose that D is binary treatment taking values of 0 or 1, then the average treatment effect is 
-
-Di =
-
-1 if unit i received the treatment
-0 otherwise.
-
-The fact that one can only observe Y = 0 or Y = 1 as potential outcomes in the real world makes establishing 
-
-causality hard. 
-
-Take for example there is a question in the marketing domain to understand if user generated contents 
-
-cause product sales? Can we really say that with more positive reviews and ratings, customers opt for a 
-
-purchase?
-
-Not really. Imagine if there are other features unknown to a marketing campaign, such as unobserved 
-
-product quality that may be pushing sales and reviews? 
+The fact that one can only observe Y = 0 or Y = 1 as potential outcomes in the real world makes establishing causality hard. Lets assume that there is a question in the marketing domain to understand if user generated contents cause product sales? Should we conclude that with more positive reviews and ratings, customers opt for a 
+purchase? Not really. Imagine if there are other features unknown to a marketing campaign, such as unobserved product quality that may be pushing sales and reviews? 
 
  
-
-
 The path to explainable and generalizable AI is meant to be at the level of functional understanding of the model rather than a low level algorithmic understanding of it. Causal 
-
-reasoning is interpreted to have a stronger effect on human thinking than non-causal information. The human mind is trained to ask : 
-
-1) why did the algorithm do that? 
-2) can it trust the results generated from the model? 
-
- 
+reasoning is interpreted to have a stronger effect on human thinking than non-causal information. 

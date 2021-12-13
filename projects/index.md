@@ -1,8 +1,8 @@
 
-### Machine Learning
+<span style="color: #999">### Machine Learning</span>
 
 
-#### Fin-Tech Use Case- 1
+<span style="color: #999">#### Fin-Tech Use Case- 1</span>
 * [Predicitng Stock Share Price](https://github.com/Anannya2021/ML-Demo-FinTech-UseCase)
 
 #### Fin-Tech Use Case- 2

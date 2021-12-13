@@ -1,10 +1,10 @@
-### AI and Machine Learning / Data Science
+### Machine Learning / Data Science
 
 ---
 
-### Caveat
-* [AI companies not using AI](https://www.theverge.com/2019/3/5/18251326/ai-startups-europe-fake-40-percent-mmc-report)
-* [AI humans](https://www.nytimes.com/2019/08/16/technology/ai-humans.html)
+### Fin-Tech Use Case 
+* [Predicitng Stock Share Price] (https://github.com/Anannya2021/ML-Demo-FinTech-UseCase)
+* [P2P Lending and Crowd Funding](https://www.nytimes.com/2019/08/16/technology/ai-humans.html)
 
 ---
 
@@ -15,7 +15,7 @@ Problem Framing
 * [ML Canvas](http://www.louisdorard.com/ml-canvas/)
 * [DL Canvas](https://medium.com/intuitionmachine/introducing-the-deep-learning-canvas-a2e80a998f11)
 
-#### Part 2
+#### Deep Learning
 Demonstrations
 
 * [AI Demos - Tensorflow.js](https://www.tensorflow.org/js/demos/)

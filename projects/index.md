@@ -4,7 +4,7 @@
 
 ### Fin-Tech Use Case 
 * [Predicitng Stock Share Price] (https://github.com/Anannya2021/ML-Demo-FinTech-UseCase)
-* [P2P Lending and Crowd Funding](https://www.nytimes.com/2019/08/16/technology/ai-humans.html)
+* [P2P Lending and Crowd Funding] (https://github.com/AnannyaNZCA/AnannyaNZCA1.github.io)
 
 ---
 

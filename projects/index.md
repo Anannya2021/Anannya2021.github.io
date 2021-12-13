@@ -1,5 +1,8 @@
-layout: default
 
+---
+layout: default
+title: "Machine Learning / Data Science"
+---
 
 ### Machine Learning / Data Science
 

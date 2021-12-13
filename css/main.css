@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    color: #999;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -45,3 +46,4 @@ ul.posts li {
     list-style: none;
     color: #999;
 }
+h1,  h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 700; color: #999; }

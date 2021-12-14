@@ -12,5 +12,14 @@ title: Categories
 	    {% include blog-post.html %}
 		{% endif %}
 	  {% endfor %}
+		
+		<h3>2. Statistical Learning</h3> 
+
+	  {% for post in site.posts %}
+		{% if post.title contains 'Cause' %}
+	    {% include blog-post.html %}
+		{% endif %}
+	  {% endfor %}
+		
 	</ul>
 

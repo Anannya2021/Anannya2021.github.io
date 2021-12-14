@@ -2,7 +2,7 @@
 layout: post
 title: "CI-1 : Missing Link In Machine Learning ~ Representing Cause and Effect"
 date: 2021-12-07
-image : /images/git2.png
+image : /images/causal_model.png
 headerImage: true
 ---
 

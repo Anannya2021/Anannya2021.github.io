@@ -8,9 +8,9 @@ title: Categories
 		<h3>1. Causal Inference</h3> 
 
 	  {% for post in site.posts %}
-		{% if post.title contains 'Cause' %}
+		{% if post.title contains 'CI' %}
 	     	<a class="url" href="{{ site.url }}{{ post.url }}">
-        	{{ post.date | date: "%b %d %Y" }} : {{ post.title }},
+        	{{ post.date | date: "%b %d %Y" }} : {{ post.title }}
     		</a>
 		{% endif %}
 	  {% endfor %}
@@ -18,7 +18,7 @@ title: Categories
 		<h3>2. Statistical Learning</h3> 
 
 	  {% for post in site.posts %}
-		{% if post.title contains 'Dimensionality' %}
+		{% if post.title contains 'SL' %}
 	    <a class="url" href="{{ site.url }}{{ post.url }}">
         	{{ post.date | date: "%b %d %Y" }} : {{ post.title }}
     	  </a>

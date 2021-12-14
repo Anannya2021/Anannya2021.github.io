@@ -47,3 +47,5 @@ ul.posts li {
     color: #999;
 }
 h1,  h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 700; color: #999; }
+
+blockquote p { font-size: 16px; line-height: 1.6em; }

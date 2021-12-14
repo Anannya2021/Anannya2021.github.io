@@ -16,7 +16,6 @@ X → Y
 
 Factor X is referred to as the treatment factor and Y is the outcome we are interested in. Lets suppose that D is binary treatment taking values of 0 or 1, then the average treatment effect is :
 
-<TO DO- insert image>
 
 The fact that one can only observe Y = 0 or Y =1 as potential outcomes in the real world makes establishing causality hard. Lets take an example an assume there is a question in the marketing domain to understand if user generated reviews cause product sales? Should we conclude that with positive reviews and ratings increasing, consumers will opt for a purchase? Would that be sensible? Not really. Imagine if there are other features unknown to a marketing campaign, such as unobserved product quality that may be pushing sales and reviews. 
  

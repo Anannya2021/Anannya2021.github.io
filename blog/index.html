@@ -8,7 +8,9 @@ title: Categories
 		<h3>1. Causal Inference</h3> 
 
 	  {% for post in site.posts %}
+		{% if post.categories contains 'Causal' %}
 	    {% include blog-post.html %}
+		{% endif %}
 	  {% endfor %}
 	</ul>
 

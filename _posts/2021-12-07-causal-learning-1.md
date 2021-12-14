@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "Missing Link In Machine Learning ~ Representing Cause and Effect"
+title: "CI-1 : Missing Link In Machine Learning ~ Representing Cause and Effect"
 date: 2021-12-07
+image : /images/git2.png
+headerImage: true
 ---
 
 Being able to explain and trust the outcome of an AI driven business decision is a crucial aspect of the data science journey. The key to artifical intelligence is about having common sense reasoning abilities. Causal perspective is necessary as a further step in elevating machine intellligence to capture underlying relationships and incorporate recurrent feedback for robust inference as  it benefits  domain adaptation. We need to move away from association to causation as questions that motivate most business use-cases are causal in nature. Machine learning algorithms lean on the assumption of independent and identically distributed data, abbreviated as i.i.d that has its roots in statistical learning theory framework. 

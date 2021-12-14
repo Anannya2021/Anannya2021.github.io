@@ -2,7 +2,9 @@
 layout: default
 ---
 
-<img class="title-image" src="{{ post.image }}" alt="{{ post.title }}">
+{% if page.image and page.headerImage %}
+    <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+{% endif %}
 
 <h2 class="title">{{ page.title }}</h2>
 

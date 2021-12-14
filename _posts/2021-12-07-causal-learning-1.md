@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Missing Link In Machine Learning : Representing Cause and Effect"
+title: "Missing Link In Machine Learning ~ Representing Cause and Effect"
 date: 2021-12-07
 ---
 

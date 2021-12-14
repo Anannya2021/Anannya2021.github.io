@@ -9,7 +9,9 @@ title: Categories
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'Cause' %}
-	    - {{ post.date | date:"%d-%m-%Y" }}: [{{ post.title }}]({{ post.url | relative.url }})
+	     <a class="url" href="{{ site.url }}{{ post.url }}">
+        	<time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }} : <aside class="title">{{ post.title }}</aside>
+    	</a>
 		{% endif %}
 	  {% endfor %}
 		

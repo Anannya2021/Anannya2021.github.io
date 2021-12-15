@@ -52,8 +52,20 @@ title: Technical / Engineering
     	  </a>
 		{% endif %}
 	  {% endfor %}
+		
+		<h3>5. Cognitive Computing</h3> 
+
+	  {% for post in site.posts %}
+		{% if post.title contains 'CC' %}
+		<ul>
+	    <a class="url" href="{{ site.url }}{{ post.url }}">
+        	{{ post.date | date: "%b %d %Y" }} : {{ post.title }}
+		    </ul>
+    	  </a>
+		{% endif %}
+	  {% endfor %}
 		    
-		<h3>5. Blockchain Systems</h3> 
+		<h3>6. Blockchain/Distributed Systems</h3> 
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'BS' %}
@@ -65,7 +77,17 @@ title: Technical / Engineering
 		{% endif %}
 	  {% endfor %}    
 		    
-		    
+		<h3>6. Digital Currencies</h3> 
+
+	  {% for post in site.posts %}
+		{% if post.title contains 'DC' %}
+		<ul>
+	    <a class="url" href="{{ site.url }}{{ post.url }}">
+        	{{ post.date | date: "%b %d %Y" }} : {{ post.title }}
+		    </ul>
+    	  </a>
+		{% endif %}
+	  {% endfor %}        
 		
 	</ul>
 

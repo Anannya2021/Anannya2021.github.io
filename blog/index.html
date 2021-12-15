@@ -10,9 +10,11 @@ title: Technical / Engineering
 	  {% for post in site.posts %}
 		{% if post.title contains 'ML' %}
 		<ul>
+		<ul>
 	     	<a class="url" href="{{ site.url }}{{ post.url }}">
         	{{ post.date | date: "%b %d %Y" }} : {{ post.title }}
-		</ul>
+			</ul>
+			</ul>
     		</a>
 		{% endif %}
 	  {% endfor %}

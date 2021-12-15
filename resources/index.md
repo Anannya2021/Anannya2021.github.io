@@ -1,4 +1,4 @@
-## Resources For Teaching
+## Self-Help Resources And For Teaching
 
 ---
 
@@ -16,10 +16,15 @@
 ### AI Class Demonstrations
 
 * [AI Demos - Tensorflow.js](https://www.tensorflow.org/js/demos/)
+
 * [AI Demos - Archived Keras.js demos](https://peterleong.github.io/keras-js/)
+
 * [AI Demos - Google](https://experiments.withgoogle.com/collection/ai)
+
 * [AI Demos - Microsoft](https://aidemos.microsoft.com/)
+
 * [Pix2Pix Demo](https://affinelayer.com/pixsrv/)
+
 * [Deep Fake](https://thispersondoesnotexist.com/)
 
 ---
@@ -27,14 +32,18 @@
 ### Low To No Code Activities 
 
 * [Machine Learning Playground - https://anannya2021.github.io/ML-Playground/](https://Anannya2021.github.io/ML-Playground/)
+
 * [Tensorflow Playground - https://playground.tensorflow.org/](https://playground.tensorflow.org/)
+
 * [Visualization of Convolutional Neural Networks - http://scs.ryerson.ca/~aharley/vis/](http://scs.ryerson.ca/~aharley/vis/)
+
 * [Convnetjs MNIST Demo - https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html](https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html)
 
 ---
 ### Useful Coding Cheatsheets
 
 * [R for statistical reference](/images/cheatsheets/R-cheatsheet.png)
+* 
 
 ---
 

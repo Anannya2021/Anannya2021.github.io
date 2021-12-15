@@ -5,30 +5,34 @@ title: Technical / Engineering
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 		
-		<h3>1. Causal Inference</h3> 
+		<h3>1. Classical Machine Learning</h3> 
 
 	  {% for post in site.posts %}
-		{% if post.title contains 'CI' %}
+		{% if post.title contains 'M' %}
+		<ul>
 	     	<a class="url" href="{{ site.url }}{{ post.url }}">
         	{{ post.date | date: "%b %d %Y" }} : {{ post.title }}
+		</ul>
     		</a>
 		{% endif %}
 	  {% endfor %}
 		
-		<h3>2. Statistical Learning</h3> 
+		<h3>2. Statistical Methods in Learning</h3> 
 
 	  {% for post in site.posts %}
-		{% if post.title contains 'SL' %}
+		{% if post.title contains 'S' %}
+		<ul>
 	    <a class="url" href="{{ site.url }}{{ post.url }}">
         	{{ post.date | date: "%b %d %Y" }} : {{ post.title }}
+		    </ul>
     	  </a>
 		{% endif %}
 	  {% endfor %}
 		
-		<h3>3. Machine Learning</h3> 
+		<h3>3. Deep Learning</h3> 
 
 	  {% for post in site.posts %}
-		{% if post.title contains 'ML' %}
+		{% if post.title contains 'D' %}
 		<ul>
 	    <a class="url" href="{{ site.url }}{{ post.url }}">
         	{{ post.date | date: "%b %d %Y" }} : {{ post.title }}
@@ -37,15 +41,31 @@ title: Technical / Engineering
 		{% endif %}
 	  {% endfor %}
 		
-		<h3>4. Deep Learning</h3> 
+		<h3>4. Artifical Intelligence and Commercialization</h3> 
 
 	  {% for post in site.posts %}
-		{% if post.title contains 'DL' %}
+		{% if post.title contains 'A' %}
+		<ul>
 	    <a class="url" href="{{ site.url }}{{ post.url }}">
         	{{ post.date | date: "%b %d %Y" }} : {{ post.title }}
+		    <ul>
     	  </a>
 		{% endif %}
 	  {% endfor %}
+		    
+		<h3>5. Blockchain Systems</h3> 
+
+	  {% for post in site.posts %}
+		{% if post.title contains 'B' %}
+		<ul>
+	    <a class="url" href="{{ site.url }}{{ post.url }}">
+        	{{ post.date | date: "%b %d %Y" }} : {{ post.title }}
+		    <ul>
+    	  </a>
+		{% endif %}
+	  {% endfor %}    
+		    
+		    
 		
 	</ul>
 

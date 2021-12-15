@@ -33,3 +33,5 @@
 
 ** [R for statistical reference](/images/cheatsheets/R-cheatsheet.png)
 
+---
+

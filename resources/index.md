@@ -30,3 +30,5 @@
 
 ---
 ### Useful Coding Cheatsheets
+
+** [R for statistical reference](![image](https://user-images.githubusercontent.com/80447701/145985155-71bb02c2-0754-4604-b0b8-ae54d7605771.png)

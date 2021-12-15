@@ -43,7 +43,8 @@
 ### Useful Coding Cheatsheets
 
 * [R for statistical reference](/images/cheatsheets/R-cheatsheet.png)
-* 
+
+* [Python for Machine/Deep Learning](/images/cheatsheets/Python-cheatsheet.png)
 
 ---
 

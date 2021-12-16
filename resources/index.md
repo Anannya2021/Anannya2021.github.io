@@ -4,7 +4,7 @@
 
 ### Framing Methodology For Business Use-Cases 
 
-* [Google ML Problem Framing - https://developers.google.com/machine-learning/problem-framing/](https://developers.google.com/machine-learning/problem-framing/)
+* [Google ML Problem Framing](https://developers.google.com/machine-learning/problem-framing/)
 
 * [ML Canvas](http://www.louisdorard.com/ml-canvas/)
 
@@ -46,7 +46,7 @@
 
 * [Python for Machine/Deep Learning](/images/cheatsheets/Python-cheatsheet.png)
 
-* [Regression techniques]<iframe src="https://content.datasciencedojo.com/wp-admin/admin-ajax.php?action=h5p_embed&id=285" width="576" height="1534" frameborder="0" allowfullscreen="allowfullscreen">
+* [Regression techniques]<iframe src="https://content.datasciencedojo.com/wp-admin/admin-ajax.php?action=h5p_embed&id=285" width="576" height="1534" frameborder="0" allowfullscreen="allowfullscreen" target="_blank">
 
 
 ---

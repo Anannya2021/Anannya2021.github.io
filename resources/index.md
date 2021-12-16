@@ -46,8 +46,5 @@
 
 * [Python for Machine/Deep Learning](/images/cheatsheets/Python-cheatsheet.png)
 
-* <iframe src="https://content.datasciencedojo.com/wp-admin/admin-ajax.php?action=h5p_embed&id=285" width="576" height="1534" frameborder="0" allowfullscreen="allowfullscreen" target="_blank">
-
-
 ---
 

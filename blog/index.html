@@ -5,7 +5,7 @@ title: Technical / Engineering / Business
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 		
-		<h3>1. Classical Machine Learning</h3> 
+		<h3>T1. Classical Machine Learning</h3> 
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'ML' %}
@@ -17,7 +17,7 @@ title: Technical / Engineering / Business
 		{% endif %}
 	  {% endfor %}
 		
-		<h3>2. Statistical Methods in Learning</h3> 
+		<h3>T2. Statistical Methods in Learning</h3> 
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'SL' %}
@@ -29,7 +29,7 @@ title: Technical / Engineering / Business
 		{% endif %}
 	  {% endfor %}
 		
-		<h3>3. Deep Learning</h3> 
+		<h3>T3. Deep Learning</h3> 
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'DL' %}
@@ -41,19 +41,7 @@ title: Technical / Engineering / Business
 		{% endif %}
 	  {% endfor %}
 		
-		<h3>4. Applied Artificial Intelligence and Commercialization</h3> 
-
-	  {% for post in site.posts %}
-		{% if post.title contains 'AI' %}
-		<ul>
-	    <a class="url" href="{{ site.url }}{{ post.url }}">
-        	{{ post.date | date: "%b %d %Y" }} - {{ post.title }}
-		    </ul>
-    	  </a>
-		{% endif %}
-	  {% endfor %}
-		
-		<h3>5. Cognitive Computing</h3> 
+		<h3>T4. Cognitive Computing</h3> 
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'CC' %}
@@ -64,8 +52,33 @@ title: Technical / Engineering / Business
     	  </a>
 		{% endif %}
 	  {% endfor %}
+		
+		<h3>T5. Blockchain Systems / Distributed Ledger Technology</h3> 
+
+	  {% for post in site.posts %}
+		{% if post.title contains 'DC' %}
+		<ul>
+	    <a class="url" href="{{ site.url }}{{ post.url }}">
+        	{{ post.date | date: "%b %d %Y" }} - {{ post.title }}
+		    </ul>
+    	  </a>
+		{% endif %}
+	  {% endfor %}     
+	
+	---
+		<h3>B1. Applied Artificial Intelligence and Commercialization</h3> 
+
+	  {% for post in site.posts %}
+		{% if post.title contains 'AI' %}
+		<ul>
+	    <a class="url" href="{{ site.url }}{{ post.url }}">
+        	{{ post.date | date: "%b %d %Y" }} - {{ post.title }}
+		    </ul>
+    	  </a>
+		{% endif %}
+	  {% endfor %}
 		    
-		<h3>6. Blockchain/Distributed Systems</h3> 
+		<h3>B2. Blockchain Innovation and Decentralized Finance</h3> 
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'BS' %}
@@ -77,17 +90,7 @@ title: Technical / Engineering / Business
 		{% endif %}
 	  {% endfor %}    
 		    
-		<h3>6. Digital Currencies</h3> 
-
-	  {% for post in site.posts %}
-		{% if post.title contains 'DC' %}
-		<ul>
-	    <a class="url" href="{{ site.url }}{{ post.url }}">
-        	{{ post.date | date: "%b %d %Y" }} - {{ post.title }}
-		    </ul>
-    	  </a>
-		{% endif %}
-	  {% endfor %}        
+	---
 		
 	</ul>
 

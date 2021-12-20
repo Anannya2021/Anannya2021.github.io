@@ -7,4 +7,5 @@ read-time: true
 # do you want to show the "tags" inside the posts?
 show-tags: true
 
+theme: jekyll-theme-slate
 

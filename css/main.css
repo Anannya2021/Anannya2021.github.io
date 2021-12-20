@@ -1,4 +1,11 @@
+/**************/
+/* BASE RULES */
+/**************/
+
+
 body {
+    background: #92a8d1;
+    font: 18px/1.4 $helvetica;
     margin: 60px auto;
     width: 70%;
     color: #999;

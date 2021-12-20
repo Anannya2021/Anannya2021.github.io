@@ -4,6 +4,8 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			
+			 {% include meta.html %}
 		</head>
 		
 		
@@ -27,5 +29,8 @@
 			
 			{% include footer.html %}
 			
+			<footer class="footer">
+				{% include svg-icons.html %}
+			</footer>
 		</body>
 	</html>

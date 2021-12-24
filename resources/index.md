@@ -46,8 +46,5 @@
 
 * [Python for Machine/Deep Learning](/images/cheatsheets/Python-cheatsheet.png)
 
-{% include terminology.html %}
-
-
 ---
 

@@ -39,6 +39,8 @@
 
 * [Convnetjs MNIST Demo - https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html](https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html)
 
+* [Google AI Experiments](https://experiments.withgoogle.com/collection/ai)
+
 ---
 ### Useful Coding Cheatsheets
 

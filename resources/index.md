@@ -49,4 +49,11 @@
 * [Python for Machine/Deep Learning](/images/cheatsheets/Python-cheatsheet.png)
 
 ---
+### Productivity Tools
+
+* [Notes / Project Management](https://www.notion.so/)
+
+* [Cloud-Based Website Creation](https://www.wix.com/)
+
+---
 

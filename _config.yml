@@ -7,6 +7,16 @@ read-time: true
 # do you want to show the "tags" inside the posts?
 show-tags: true
 
+# Name of your site (displayed in the header)
+name: Anannya
+
+# Short bio or description (displayed in the header)
+description: Data Enthusiast
+
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+
+
 theme: jekyll-theme-slate
 # Includes an icon in the footer for each username you enter
 footer-links:

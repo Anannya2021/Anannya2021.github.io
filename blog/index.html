@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Technical / Engineering / Business
+
 ---
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
@@ -10,7 +10,10 @@ title: Technical / Engineering / Business
 	  {% for post in site.posts %}
 		{% if post.title contains 'ML' %}
 		<ul>
-	     	<a class="url" href="{{ site.url }}{{ post.url }}">
+			 <div class="entry">
+        {{ post.excerpt }}
+      </div>
+	     	<a class="url" href="{{ site.url }}{{ post.url }}" class="read-more">Read More>
         	{{ post.date | date: "%b %d %Y" }} - {{ post.title }}
 		</ul>
 		<br>
@@ -98,20 +101,7 @@ title: Technical / Engineering / Business
 	  {% endfor %} 
 		
 	
-		 <div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+		
 		
 	---
 		

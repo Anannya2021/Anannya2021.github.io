@@ -54,11 +54,9 @@ ul.posts li {
     color: #999;
 }
 
-div.entry {
+.entry h3 {
     position: relative;
     padding: 10px;
-    margin: 0 auto;
-    margin-bottom: 20px;
      font-size: 1.5em;
     line-height: 1.4em;
     color: #333;

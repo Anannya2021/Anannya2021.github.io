@@ -54,7 +54,7 @@ ul.posts li {
     color: #999;
 }
 
-li.entry {
+div.entry {
     position: relative;
     padding: 10px;
     margin: 0 auto;

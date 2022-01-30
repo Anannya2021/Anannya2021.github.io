@@ -10,16 +10,11 @@ layout: default
 	  {% for post in site.posts %}
 		{% if post.title contains 'ML' %}
 		<ul>
-			 
-		
 	     	<a class="url" href="{{ site.url }}{{ post.url }}"> 
         	{{ post.date | date: "%b %d %Y" }} - {{ post.title }}
-			
-		
-			
+					
         {{ post.excerpt }}
-    
-			<a class="url" href="{{ site.url }}{{ post.url }}" class="read-more">Read More	
+   			<a class="url" href="{{ site.url }}{{ post.url }}" class="read-more">Read More	
 		</ul>
 		<br>
     		</a>

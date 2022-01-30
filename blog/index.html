@@ -13,7 +13,9 @@ layout: default
 			 <div class="entry">
         {{ post.excerpt }}
       </div>
-	     	<a class="url" href="{{ site.url }}{{ post.url }}" class="read-more">Read More>
+		
+	     	<a class="url" href="{{ site.url }}{{ post.url }}" class="read-more">Read More
+			<br>
         	{{ post.date | date: "%b %d %Y" }} - {{ post.title }}
 		</ul>
 		<br>

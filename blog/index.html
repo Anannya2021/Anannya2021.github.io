@@ -26,12 +26,14 @@ layout: default
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'SL' %}
-		<ul>
-	    	<a class="url" href="{{ site.url }}{{ post.url }}">
-        	{{ post.date | date: "%b %d %Y" }} - {{ post.title }}
-		</ul>
+		<li>
+	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
+			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
+			{% if post.excerpt != post.content %}
+			<a class="url" href="{{ site.baseurl }}{{ post.url }}"><h4><em>Read more...</em></h4></a>
+{% endif %}
+		</li>
 		<br>
-    	        </a>
 		{% endif %}
 	  {% endfor %}
 		

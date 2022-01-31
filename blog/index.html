@@ -12,7 +12,7 @@ layout: default
 		<li>
 	     <a class="url" href="{{ site.url }}{{ post.url }}"> 
 			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
-			<p>Excerpt: {{ post.excerpt| strip_html| strip_newlines  }}</p>
+			<p>Excerpt: {{ post.excerpt| strip_html| strip_newlines| replace: '<br />', ' ' | strip_html | strip  }}</p>
 			
 	<a class="url" href="{{ site.url }}{{ post.url }}"><em>Read more...</em></a>	
 		</li>

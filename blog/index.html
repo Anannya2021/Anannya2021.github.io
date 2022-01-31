@@ -7,7 +7,7 @@ layout: default
 		
 		<h3>T1. Core Machine Learning Algorithms</h3> 
 
-	  {% for post in site.posts %}
+	  {%- for post in site.posts -%}
 		{% if post.title contains 'ML' %}
 		<li>
 	     <a class="url" href="{{ site.url }}{{ post.url }}"> 
@@ -19,7 +19,7 @@ layout: default
 		<br>
     		
 		{% endif %}
-	  {% endfor %}
+	  {%- endfor -%}
 
 		
 		<h3>T2. Statistical Methods For Data Science</h3> 

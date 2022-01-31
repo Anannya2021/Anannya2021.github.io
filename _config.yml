@@ -7,6 +7,8 @@ read-time: true
 # do you want to show the "tags" inside the posts?
 show-tags: true
 
+show_excerpts: true
+
 # Name of your site (displayed in the header)
 name: Anannya
 

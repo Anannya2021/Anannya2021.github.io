@@ -12,15 +12,15 @@ layout: default
 		<li>
 	     <a class="url" href="{{ site.url }}{{ post.url }}"> 
 			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
-			
+			{% if post.excerpt != post.content %}
+			<a class="url" href="{{ site.baseurl }}{{ post.url }}"><h4><em>Read more...</em></h4></a>
+{% endif %}
 		</li>
 		<br>
     		
 		{% endif %}
 	  {% endfor %}
-{% if post.excerpt != post.content %}
-    <a class="url" href="{{ site.baseurl }}{{ post.url }}"><em>Read more...</em></a>
-{% endif %}
+
 		
 		<h3>T2. Statistical Methods For Data Science</h3> 
 

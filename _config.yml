@@ -1,6 +1,6 @@
 name: Anannya, AI Researcher , Writer 
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title/:description/
+permalink: /blog/:year/:month/:day/:title/
 
 
 read-time: true

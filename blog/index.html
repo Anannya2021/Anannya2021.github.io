@@ -13,7 +13,7 @@ layout: default
 	     <a class="url" href="{{ site.url }}{{ post.url }}"> 
 			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
 			{% if post.excerpt != post.content %}
-			<a class="url" href="{{ site.baseurl }}{{ post.url }}"><h4><em>Read more...</em></h4></a>
+			<a class="url" href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}<h4><em>Read more...</em></h4></a>
 {% endif %}
 		</li>
 		<br>

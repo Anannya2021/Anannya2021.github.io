@@ -16,6 +16,12 @@
 ### Pre-processing Technique in Python Example- 1
 ** [Geocoding In Python](https://github.com/AnannyaNZCA/GeoCode_Reversal_API_Python)
 
+### Web Scraping For Text Analysis Example- 2
+
+In this demonstration, i will harness the power of social media for deriving insights and identifying trends. We will work through a real-life example of predicting price actions based on social media sentiments of cryptocurrency tweets using Google Colab, a cloud based Python environment. 
+
+Before identifying the polarity of the texts, we will explore text pre-processing, summarization and cleaning strategies using NLTK, Scikit, Spacy. This will thn be followed with exploratory data analysis for text data where we will analyze which are the most popular hashtags and topics withe most followers.
+
 ---
 
 ## Blockchain

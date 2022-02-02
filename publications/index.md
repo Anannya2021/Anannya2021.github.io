@@ -4,6 +4,7 @@
 
 ### Technical Reports 
 
-* [Google ML Problem Framing](https://developers.google.com/machine-learning/problem-framing/)
+* [Investigating Affective States With Music](/assets/Investigating_Affective_States_With_Music.pdf)
+
 
 ---

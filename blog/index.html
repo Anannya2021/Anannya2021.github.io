@@ -5,7 +5,7 @@ layout: default
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 		
-		<h3>T1. Core Machine Learning Algorithms</h3> 
+		<h3>Machine Learning & Analytics</h3> 
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'ML' %}
@@ -24,7 +24,7 @@ layout: default
 	  {% endfor %}
 
 		
-		<h3>T2. Statistical Methods For Data Science</h3> 
+		<h3>Statistical Methods For Data Science</h3> 
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'SL' %}
@@ -32,7 +32,7 @@ layout: default
 	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
 			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
 			{% if post.excerpt != post.content %}
-			<a class="url" href="{{ site.baseurl }}{{ post.url }}"><h4><em>Read more...</em></h4></a>
+			<a class="url" href="{{ site.baseurl }}{{ post.url }}"><h4><em>Read more</em></h4></a>
 {% endif %}
 		</li>
 		<br>
@@ -43,12 +43,14 @@ layout: default
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'DL' %}
-		<ul>
-	    	<a class="url" href="{{ site.url }}{{ post.url }}">
-        	{{ post.date | date: "%b %d %Y" }} - {{ post.title }}
-		</ul>
+		<li>
+	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
+			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
+			{% if post.excerpt != post.content %}
+			<a class="url" href="{{ site.baseurl }}{{ post.url }}"><h4><em>Read more</em></h4></a>
+{% endif %}
+		</li>
 		<br>
-    	  	</a>
 		{% endif %}
 	  {% endfor %}
 		
@@ -56,12 +58,14 @@ layout: default
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'CC' %}
-		<ul>
-	    	<a class="url" href="{{ site.url }}{{ post.url }}">
-        	{{ post.date | date: "%b %d %Y" }} - {{ post.title }}
-		</ul>
+		<li>
+	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
+			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
+			{% if post.excerpt != post.content %}
+			<a class="url" href="{{ site.baseurl }}{{ post.url }}"><h4><em>Read more</em></h4></a>
+{% endif %}
+		</li>
 		<br>
-    	  	</a>
 		{% endif %}
 	  {% endfor %}
 		
@@ -69,26 +73,30 @@ layout: default
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'DC' %}
-		<ul>
-	    	<a class="url" href="{{ site.url }}{{ post.url }}">
-        	{{ post.date | date: "%b %d %Y" }} - {{ post.title }}
-		</ul>
+		<li>
+	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
+			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
+			{% if post.excerpt != post.content %}
+			<a class="url" href="{{ site.baseurl }}{{ post.url }}"><h4><em>Read more</em></h4></a>
+{% endif %}
+		</li>
 		<br>
-    	  	</a>
 		{% endif %}
-	  {% endfor %}     
+	  {% endfor %} 
 	
 	---
 		<h3>B1. Strategy and Technical Commercialization</h3> 
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'AI' %}
-		<ul>
-	    	<a class="url" href="{{ site.url }}{{ post.url }}">
-        	{{ post.date | date: "%b %d %Y" }} - {{ post.title }}
-		</ul>
+		<li>
+	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
+			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
+			{% if post.excerpt != post.content %}
+			<a class="url" href="{{ site.baseurl }}{{ post.url }}"><h4><em>Read more</em></h4></a>
+{% endif %}
+		</li>
 		<br>
-    	  	</a>
 		{% endif %}
 	  {% endfor %}
 		
@@ -96,14 +104,16 @@ layout: default
 		<h3>B2. Blockchain Innovation and Decentralized Finance</h3> 
 	  {% for post in site.posts %}
 		{% if post.title contains 'BDF' %}
-		<ul>
-	    	<a class="url" href="{{ site.url }}{{ post.url }}">
-        	{{ post.date | date: "%b %d %Y" }} - {{ post.title }}
-		</ul>
+		<li>
+	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
+			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
+			{% if post.excerpt != post.content %}
+			<a class="url" href="{{ site.baseurl }}{{ post.url }}"><h4><em>Read more</em></h4></a>
+{% endif %}
+		</li>
 		<br>
-    	  	</a>
 		{% endif %}
-	  {% endfor %} 
+	  {% endfor %}
 		
 	
 		

@@ -42,6 +42,17 @@
 * [Google AI Experiments](https://experiments.withgoogle.com/collection/ai)
 
 ---
+
+### Interview Preparation Kit
+
+* [Algorithms and Data Structures - HackerRank](https://www.hackerrank.com/interview/interview-preparation-kit)
+
+* [Python for Data Science/ Machine Learning](https://github.com/khanhnamle1994/cracking-the-data-science-interview)
+
+* [Python for Data Science/ Machine Learning]()
+
+---
+
 ### Useful Coding Cheatsheets
 
 * [R for statistical reference](/images/cheatsheets/R-cheatsheet.png)

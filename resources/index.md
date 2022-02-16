@@ -45,11 +45,11 @@
 
 ### Interview Preparation Kit
 
-* [Algorithms and Data Structures - HackerRank](https://www.hackerrank.com/interview/interview-preparation-kit)
+* [General Algorithms and Data Structures - HackerRank](https://www.hackerrank.com/interview/interview-preparation-kit)
 
 * [Python for Data Science/ Machine Learning](https://github.com/khanhnamle1994/cracking-the-data-science-interview)
 
-* [Python for Data Science/ Machine Learning]()
+* [Machine Learning / Deep Learning Algorithms](https://github.com/ignacio-alorre/Data-Science/wiki/Interview-Questions-III)
 
 ---
 

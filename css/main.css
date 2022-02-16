@@ -5,9 +5,9 @@
 
 body {
     background: #e9f5f8;
-    font: 18px/1.4 $helvetica;
+    font: 15px/1.4 $helvetica;
     margin: 70px auto;
-    width: 80%;
+    width: 70%;
     color: #333;
 }
 nav ul, footer ul {
@@ -28,7 +28,7 @@ a:hover {
     text-decoration: underline;
 }
 h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #333;
 }

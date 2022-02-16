@@ -6,9 +6,9 @@
 body {
     background: #e9f5f8;
     font: 18px/1.4 $helvetica;
-    margin: 60px auto;
-    width: 70%;
-    color: #999;
+    margin: 70px auto;
+    width: 80%;
+    color: #333;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';

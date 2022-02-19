@@ -39,7 +39,7 @@ layout: default
 		{% endif %}
 	  {% endfor %}
 		
-		<h3>T3. Deep Learning</h3> 
+		<h3>Deep Learning</h3> 
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'DL' %}
@@ -53,8 +53,23 @@ layout: default
 		<br>
 		{% endif %}
 	  {% endfor %}
+
+		<h3>MLOps & Cloud Data Engineering</h3> 
+
+	  {% for post in site.posts %}
+		{% if post.title contains 'DE' %}
+		<li>
+	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
+			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
+			{% if post.excerpt != post.content %}
+			<a class="url" href="{{ site.baseurl }}{{ post.url }}"><h4><em>Read more</em></h4></a>
+{% endif %}
+		</li>
+		<br>
+		{% endif %}
+	  {% endfor %}
 		
-		<h3>T4. Affective Computing</h3> 
+		<h3>Affective Computing</h3> 
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'CC' %}
@@ -69,7 +84,7 @@ layout: default
 		{% endif %}
 	  {% endfor %}
 		
-		<h3>T5. Blockchain Systems / Distributed Ledger Technology</h3> 
+		<h3>Blockchain Systems / Distributed Ledger Technology</h3> 
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'DC' %}
@@ -85,7 +100,7 @@ layout: default
 	  {% endfor %} 
 	
 	---
-		<h3>B1. Strategy and Technical Commercialization</h3> 
+		<h3>Strategy and Technical Commercialization</h3> 
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'AI' %}
@@ -101,7 +116,7 @@ layout: default
 	  {% endfor %}
 		
 		
-		<h3>B2. Blockchain Innovation and Decentralized Finance</h3> 
+		<h3>Blockchain Innovation and Decentralized Finance</h3> 
 	  {% for post in site.posts %}
 		{% if post.title contains 'BDF' %}
 		<li>

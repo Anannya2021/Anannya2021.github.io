@@ -8,7 +8,11 @@ body {
     font: 12px/1.4 $helvetica;
     margin: 70px auto;
     width: 70%;
-    color: #333;
+    color: #999;
+}
+.page__content {
+
+  text-align: justify;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -22,7 +26,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #333;
+    color: #999;
 }
 a:hover {
     text-decoration: underline;
@@ -35,7 +39,7 @@ h3 {
 p {
    font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #999;
     font: 12px/1.4 $helvetica;
      
 }
@@ -48,7 +52,7 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
-    color: #333;
+    color: #999;
 }
 
 ul.posts li {

@@ -43,6 +43,12 @@
 
 ---
 
+### MLOps - Open Source Tooling 
+
+* [Open Source Ready To Go Toolkit For MLOps Arechitecture ](https://datarevenue.com/machine-learning-software-tools)
+
+---
+
 ### Interview Preparation Kit
 
 * [General Algorithms and Data Structures - HackerRank](https://www.hackerrank.com/interview/interview-preparation-kit)

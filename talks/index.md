@@ -17,8 +17,8 @@ This talk presents my learnings and findings on computational techniques for det
 ### Research Talks
 ** Investigating Affective States with Music <br>
    Nov 2021 | Online Asian Machine Learning School <br>
-   [poster](/poster.jpg) <br>
-   [video]
+   [poster](/assets/poster.jpg) <br>
+   [video](https://www.youtube.com/watch?v=MyPN_YXvyGo)
 
 ### Conference Presentations
 ** Investigating Affective States with Music <br>

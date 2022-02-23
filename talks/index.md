@@ -2,7 +2,7 @@
 ## Industry 
 
 ### Learning and Development Talks 
-** Affective Computing In Modelling Human Emotions 
+** Affective Computing In Modelling Human Emotions <br></br>
 ** Oct 2021 Seminar style talk delivered over zoom at an ex-consulting organization
 [slides](https://github.com/Anannya2021/ML-Demo-FinTech-UseCase)
 

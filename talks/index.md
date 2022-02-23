@@ -3,7 +3,7 @@
 
 ### Learning and Development Talks 
 ** Affective Computing In Modelling Human Emotions <br></br>
-** Oct 2021 Seminar style talk delivered over zoom at an ex-consulting organization <br>
+   Oct 2021 | Seminar style talk delivered over zoom at an ex-consulting organization <br>
 [slides](https://github.com/Anannya2021/ML-Demo-FinTech-UseCase) <br>
 
 This talk presents my learnings and findings on computational techniques for detecting, recognizing and predicting human emotions. While the recognition of emotional states come naturally to humans, these tasks pose several challenges to computational routines. The content describes how emotions can be interpreted from several channels, i.e: multimodal analysis, through facial expressions, body gestures, speech patterns and text. 

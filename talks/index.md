@@ -12,7 +12,7 @@ This talk presents my learnings and findings on computational techniques for det
 ### Workshops and Tutorials
 ** 2. Demonstrating Machine Learning Techniques on predicting financial stock prices<br><br>
       Jun 2021 | Conducted a tutorial session as part of teaching the Artifical Intelligence Literacy Competency Program in National University of Singapore<br><br>
-      <b>[Tutorial Notebook]</b>(https://github.com/Anannya2021/ML-Demo-FinTech-UseCase)<br>
+      <b>[Tutorial Notebook](https://github.com/Anannya2021/ML-Demo-FinTech-UseCase)</b> <br>
    
  The Artifical Intelligence Competency program is designed to equip executive and administrative staff with practical AI knowledge in structuring projects with the Crisp-DM framework and this tutorial was delivered as part of my teaching workload. It details data ingestion via making API calls, exploratory analysis and the application of supervised machine learning techniques.  
 
@@ -21,16 +21,16 @@ This talk presents my learnings and findings on computational techniques for det
 ### Research Talks
 ** 3. Investigating Affective States with Music <br><br>
       Nov 2021 | Online Asian Machine Learning School <br><br>
-      <b>[poster]</b>(/assets/Poster.jpg) <br>
-      <b>[video]</b>(https://www.youtube.com/watch?v=MyPN_YXvyGo)<br>
+      <b>[poster](/assets/Poster.jpg)</b> <br>
+      <b>[video](https://www.youtube.com/watch?v=MyPN_YXvyGo)</b> <br>
    
 Online Asian Machine Learning School (OAMLS) is part of the highly regarded Asian Conference for Machine Learning for academics and researchers. I was a motivated participant    who had an invaluable opportunity to network with academic experts from AI/ML field and present my work around affective computing in the form of a poster and video session. This is an extension to my research paper that was co-authored with a fellow academic peer and it is currently pending submissoin to the ACML journal. 
 
 ### Conference Presentations
 ** 4. Investigating Affective States with Music <br><br>
       Nov 2021 | Asian Conference For Machine Learning<br><br>
-      <b>[research paper]</b>(/assets/Investigating_Affective_States_With_Music)<br>
-      <b>[experimental code]</b>(https://github.com/Anannya2021/Investigating_Affective_States_With_Music)<br>
+      <b>[research paper](/assets/Investigating_Affective_States_With_Music)</b> <br>
+      <b>[experimental code](https://github.com/Anannya2021/Investigating_Affective_States_With_Music)</b><br>
    
  This details my work and experiments that includes both a statistical component as well as ml/dl techniques on the impact music has on invoking emotions in humans. The paper is under review by the panel pending submission to the ACML journal.
 

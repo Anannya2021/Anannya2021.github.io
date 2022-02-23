@@ -29,7 +29,7 @@ Online Asian Machine Learning School (OAMLS) is part of the highly regarded Asia
 ### Conference Presentations
 ** 4. Investigating Affective States with Music <br><br>
       Nov 2021 | Asian Conference For Machine Learning<br><br>
-      <b>[research paper](/assets/Investigating_Affective_States_With_Music)</b> <br>
+      <b>[research paper](/assets/Investigating_Affective_States_With_Music.pdf)</b> <br>
       <b>[experimental code](https://github.com/Anannya2021/Investigating_Affective_States_With_Music)</b><br>
    
  This details my work and experiments that includes both a statistical component as well as ml/dl techniques on the impact music has on invoking emotions in humans. The paper is under review by the panel pending submission to the ACML journal.

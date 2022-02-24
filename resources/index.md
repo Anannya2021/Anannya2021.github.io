@@ -74,7 +74,7 @@
 ---
 ### References for Cloud Solution Designs
 
-* <h4>[Google Cloud Platform]</h4>(https://cloud.google.com/blog/products/application-development/13-popular-application-architectures-for-google-cloud)
+* [Google Cloud Platform](https://cloud.google.com/blog/products/application-development/13-popular-application-architectures-for-google-cloud)
 
 
 ---

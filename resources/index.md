@@ -1,4 +1,3 @@
-## Guides For Teaching
 
 ---
 
@@ -75,7 +74,7 @@
 ---
 ### References for Cloud Solution Designs
 
-* [Google Cloud Platform](https://cloud.google.com/blog/products/application-development/13-popular-application-architectures-for-google-cloud)
+* <h4>[Google Cloud Platform](https://cloud.google.com/blog/products/application-development/13-popular-application-architectures-for-google-cloud)</h4>
 
 
 ---

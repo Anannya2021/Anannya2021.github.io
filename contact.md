@@ -1,6 +1,6 @@
 ---
 title: Contact Me
-layout: post
+layout: default
 ---
 
 # Contact

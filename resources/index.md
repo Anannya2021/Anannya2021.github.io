@@ -71,10 +71,10 @@
 * [Cloud-Based Website Creation](https://www.wix.com/)
 
 ---
+
 ### References for Cloud Solution Designs
 
 * [Google Cloud Platform](https://cloud.google.com/blog/products/application-development/13-popular-application-architectures-for-google-cloud)
-
 
 ---
 

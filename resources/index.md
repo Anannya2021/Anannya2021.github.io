@@ -1,4 +1,4 @@
-## Self-Help Resources And For Teaching
+## Guides For Teaching
 
 ---
 

@@ -31,13 +31,13 @@
 
 ### Low To No Code Activities 
 
-* [Machine Learning Playground - https://anannya2021.github.io/ML-Playground/](https://Anannya2021.github.io/ML-Playground/)
+* [Machine Learning Playground](https://Anannya2021.github.io/ML-Playground/)
 
-* [Tensorflow Playground - https://playground.tensorflow.org/](https://playground.tensorflow.org/)
+* [Tensorflow Playground](https://playground.tensorflow.org/)
 
-* [Visualization of Convolutional Neural Networks - http://scs.ryerson.ca/~aharley/vis/](http://scs.ryerson.ca/~aharley/vis/)
+* [Visualization of Convolutional Neural Networks](http://scs.ryerson.ca/~aharley/vis/)
 
-* [Convnetjs MNIST Demo - https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html](https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html)
+* [Convnetjs MNIST Demo](https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html)
 
 * [Google AI Experiments](https://experiments.withgoogle.com/collection/ai)
 
@@ -72,6 +72,7 @@
 
 * [Cloud-Based Website Creation](https://www.wix.com/)
 
+---
 ### References for Cloud Solution Designs
 
 * [Google Cloud Platform](https://cloud.google.com/blog/products/application-development/13-popular-application-architectures-for-google-cloud)

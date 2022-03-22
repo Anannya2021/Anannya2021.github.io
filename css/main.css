@@ -4,9 +4,10 @@
 
 
 body {
-    background-image: url('images/background.png');">
-    <body style="background-image: url('images/background.png');">
-    font: 12px/1.4 $helvetica;
+    background-image: url('images/background.png');"
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
     margin: 70px auto;
     width: 70%;
     color: #999;
@@ -48,6 +49,14 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     color: #999;
+}
+
+.faicon {
+    color: black;
+    font-size: 25px;
+}
+.faicon:hover {
+    color: #bb8f0a;
 }
 
 ul.posts { 
@@ -112,8 +121,6 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
     padding: 0.2em;
 }
 
-/*Cards*/
-
 @media screen and (max-width: 516px) {
   .pure-menu-list {
     display: flex !important;
@@ -121,6 +128,7 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
     flex-direction: column !important;
     align-items: center;
   }
+
     
 .container {
     display: flex;
@@ -143,5 +151,17 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
 }
 .card .row {
     margin-top: -5px;
+}
+    
+    .website {
+    background-color: #ed3948;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px 5px 0 5px;
+    position: relative;
+    top: -45px;
 }
 

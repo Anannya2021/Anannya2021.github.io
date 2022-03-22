@@ -5,6 +5,7 @@
 
 body {
     background-image: url('images/background.png');">
+    <body style="background-image: url('images/background.png');">
     font: 12px/1.4 $helvetica;
     margin: 70px auto;
     width: 70%;
@@ -63,4 +64,50 @@ ul.posts li {
 h1,  h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 700; color: #999; }
 
 blockquote p { font-size: 16px; line-height: 1.6em; }
+
+.collapse {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.collapse .tab {
+    margin: 0;
+}
+.collapse .tab-toggle {
+    display: none;
+}
+.collapse .tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6em;
+    margin-top: 0.5em;
+    border-radius: 8px;
+    border: 2px solid lightgrey;
+    margin-bottom: 0.8em;
+}
+.collapse .tab-label:hover {
+    background-color: #eddfe6;
+}
+.collapse .tab-toggle:checked ~.tab-label {
+    /*background-color: #eddab4;*/
+}
+.collapse .tab-label::after {
+    /*content: '\276F';*/
+    content: '\002B';
+    transition: all .4s;
+}
+.collapse .tab-toggle:checked ~ .tab-label::after {
+    /*transform: rotate(90deg);*/
+    content: '\002D';
+}
+.collapse .tab-content {
+    background-color: white;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all .4s;
+    padding: 0 1em;
+}
+.collapse .tab-toggle:checked ~ .tab-content {
+    max-height: 200vh;
+    padding: 0.2em;
+}
 

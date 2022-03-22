@@ -4,8 +4,7 @@
 
 
 body {
-    background: #e9f5f8;
-    <body style="background-image: url('images/background.png');">
+    background: <body style="background-image: url('images/background.png');">
     font: 12px/1.4 $helvetica;
     margin: 70px auto;
     width: 70%;

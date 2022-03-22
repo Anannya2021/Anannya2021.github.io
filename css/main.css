@@ -14,7 +14,7 @@ body {
 }
 
 .header-active {
-    background-color: #eeeeee;
+    background-color: #e9f5f8;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -28,7 +28,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #333;
 }
 a:hover {
     text-decoration: underline;

@@ -50,7 +50,7 @@ layout: default
 		{% endif %}
 	  {% endfor %}
 		
-		<h3>Deep Learning</h3> 
+		<h3>Deep Learning & NLP</h3> 
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'DL' %}
@@ -104,7 +104,7 @@ layout: default
 		<h3>Blockchain Systems / Distributed Ledger Technology</h3> 
 
 	  {% for post in site.posts %}
-		{% if post.title contains 'DC' %}
+		{% if post.title contains 'BS' %}
 		<li>
 	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
 			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>

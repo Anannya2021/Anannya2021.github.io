@@ -31,4 +31,10 @@ Before identifying the polarity of the texts, we will explore text pre-processin
 
 ---
 
-
+<div class="content works-container">
+    <a class="img-links" href="https://www.youtube.com/watch?v=MyPN_YXvyGo" target="_blank">
+      <div class="works" style="background-image: url('assets/Poster.jpg');">
+        <p class="website" style="display: none;">Music & Cognitive Computing</p>
+        <i class="fas fa-link works-link" style="display: none"></i>
+      </div>
+    </a>

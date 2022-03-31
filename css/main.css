@@ -57,6 +57,17 @@ footer {
     color: #bb8f0a;
 }
 
+ul.blog { 
+    background-image: url('images/background.png');"
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    margin: 70px auto;
+    width: 70%;
+    color: #999;
+}
+
+
 ul.posts { 
     background-image: url('images/background.png');"
     padding: 20px;

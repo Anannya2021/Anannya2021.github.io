@@ -35,7 +35,7 @@ a:hover {
 h3 {
     font-size: 1.0em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #333;
+    color: #999;
 }
 h4 {
     font-size: 22px;
@@ -46,6 +46,18 @@ p {
     text-align: justify;
      color: #999;
 }
+@media screen and (max-width: 516px) {
+  .pure-menu-list {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .pure-menu-item {
+    margin: 5px 0 0 0;
+  }
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -137,13 +149,7 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
     padding: 0.2em;
 }
 
-@media screen and (max-width: 516px) {
-  .pure-menu-list {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    flex-direction: column !important;
-    align-items: center;
-  }
+
 
   /*Cards*/  
 .container {

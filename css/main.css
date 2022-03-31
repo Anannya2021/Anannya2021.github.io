@@ -13,8 +13,6 @@ body {
     color: #999;
 }
 .page__content {
-  max-width: 700px;
- 
   text-align: justify;
 }
 nav ul, footer ul {

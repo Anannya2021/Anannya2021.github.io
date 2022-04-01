@@ -46,13 +46,7 @@ p {
     text-align: justify;
      color: #999;
 }
-@media screen and (max-width: 516px) {
-  .pure-menu-list {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    flex-direction: column !important;
-    align-items: center;
-  }
+
   .pure-menu-item {
     margin: 5px 0 0 0;
   }

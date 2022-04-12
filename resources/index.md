@@ -1,8 +1,4 @@
 
----
-layout: default
-title: Anannya's Website
----
   
   
 ### Framing Methodology For Business Use-Cases 

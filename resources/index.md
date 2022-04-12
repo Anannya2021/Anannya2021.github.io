@@ -1,7 +1,7 @@
 
 
   
----  
+  
 ### Framing Methodology For Business Use-Cases 
 
 * [Google ML Problem Framing](https://developers.google.com/machine-learning/problem-framing/)
@@ -11,7 +11,7 @@
 * [DL Canvas](https://medium.com/intuitionmachine/introducing-the-deep-learning-canvas-a2e80a998f11)
 
 
----
+
 
 ### AI Class Demonstrations
 

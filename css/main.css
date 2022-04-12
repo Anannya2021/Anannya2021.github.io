@@ -13,7 +13,7 @@ body {
     color: #999;
 }
 .page__content {
-  text-align: left;
+  text-align: center;
   background-image: url('images/background.png');
 }
 nav ul, footer ul {
@@ -44,7 +44,7 @@ h4 {
 p {
     font-size: 17px;
     line-height: 1.5;
-    text-align: left;
+    text-align: center;
      color: #999;
 }
 

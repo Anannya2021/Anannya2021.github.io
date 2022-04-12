@@ -1,3 +1,6 @@
+<p align="center">
+---
+
 ## Publications and Research
 
 ---
@@ -8,3 +11,4 @@
 
 
 ---
+</p>

@@ -1,5 +1,7 @@
 
 <p align="center">
+  
+---  
 ### Framing Methodology For Business Use-Cases 
 
 * [Google ML Problem Framing](https://developers.google.com/machine-learning/problem-framing/)

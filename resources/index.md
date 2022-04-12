@@ -1,5 +1,5 @@
 
-
+<p align="center">
 ### Framing Methodology For Business Use-Cases 
 
 * [Google ML Problem Framing](https://developers.google.com/machine-learning/problem-framing/)
@@ -77,4 +77,4 @@
 * [Google Cloud Platform](https://cloud.google.com/blog/products/application-development/13-popular-application-architectures-for-google-cloud)
 
 ---
-
+</p>

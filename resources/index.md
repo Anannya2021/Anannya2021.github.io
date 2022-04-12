@@ -1,5 +1,5 @@
 
-<p align="center">
+
   
 ---  
 ### Framing Methodology For Business Use-Cases 
@@ -79,4 +79,4 @@
 * [Google Cloud Platform](https://cloud.google.com/blog/products/application-development/13-popular-application-architectures-for-google-cloud)
 
 ---
-</p>
+

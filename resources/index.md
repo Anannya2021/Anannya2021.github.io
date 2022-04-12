@@ -11,8 +11,6 @@
 
 * [DL Canvas](https://medium.com/intuitionmachine/introducing-the-deep-learning-canvas-a2e80a998f11)
 
-<br>
-
 
 ### AI Class Demonstrations
 

@@ -13,7 +13,7 @@ body {
     color: #999;
 }
 .page__content {
-  text-align: justify;
+  text-align: center;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';

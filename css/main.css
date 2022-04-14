@@ -134,7 +134,7 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
     content: '\002D';
 }
 .collapse .tab-content {
-    background-color: white;
+   
     max-height: 0px;
     overflow: hidden;
     transition: all .4s;
@@ -217,8 +217,7 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
     
     .website {
     <body style="background-image: url('images/background.png');">
-    background-color: #ed3948;
-    color: white;
+  
     font-size: 20px;
     font-weight: bold;
     border: 1px solid lightgrey;

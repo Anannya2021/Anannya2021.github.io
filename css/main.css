@@ -12,7 +12,7 @@ body {
     width: 70%;
     color: #999;
 }
-<body style="background-image: url('images/background.png');">
+
 .page__content {
   text-align: center;
   background-image: url('images/background.png');
@@ -216,6 +216,7 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
        
     
     .website {
+    <body style="background-image: url('images/background.png');">
     background-color: #ed3948;
     color: white;
     font-size: 20px;

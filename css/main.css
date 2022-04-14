@@ -4,7 +4,7 @@
 
 
 body {
-    background-image: url("../images/background.png");
+    background-image: url('../images/background.png');
     padding: 20px;
     font-family: 'Lato', sans-serif;
     font-size: 17px;
@@ -15,7 +15,7 @@ body {
 
 .page__content {
   text-align: center;
-  background-image: url('images/background.png');
+  background-image: url('../images/background.png');
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -69,7 +69,7 @@ footer {
 }
 
 ul.blog { 
-    background-image: url('images/background.png');"
+    background-image: url('../images/background.png');"
     padding: 20px;
     font-family: 'Lato', sans-serif;
     font-size: 17px;
@@ -216,7 +216,7 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
        
     
     .website {
-    <body style="background-image: url('images/background.png');">
+    <body style="background-image: url('../images/background.png');">
   
     font-size: 20px;
     font-weight: bold;

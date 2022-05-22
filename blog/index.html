@@ -104,23 +104,6 @@ layout: default
 		{% endif %}
 	  {% endfor %}
 
-		<h3>Artificial Intelligence</h3> 
-
-	  {% for post in site.posts %}
-		{% if post.title contains 'AI' %}
-		<li>
-	     <a class="url" href="{{ site.url }}{{ post.url }}"> 
-			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
-			<br>
-		</br>
-			{% if post.excerpt != post.content %}
-			<a class="url" href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}<h4>Read more</h4></a>
-{% endif %}
-		</li>
-		<br>
-    		
-		{% endif %}
-	  {% endfor %}
 		
 		<h3>Affective Computing</h3> 
 

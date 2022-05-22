@@ -14,7 +14,61 @@ layout: default
   </script>
   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   
-		<h3>Machine Learning & Analytics</h3> 
+		<h3>Data Engineering</h3> 
+
+	  {% for post in site.posts %}
+		{% if post.title contains 'DE' %}
+		<li>
+	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
+			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
+			<br>
+		</br>
+			{% if post.excerpt != post.content %}
+			<a class="url" href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}<h4><em>Read more</em></h4></a>
+{% endif %}
+		</li>
+		<br>
+		{% endif %}
+	  {% endfor %}
+
+		
+		<h3>Machine Learning Engineering</h3> 
+
+	  {% for post in site.posts %}
+		{% if post.title contains 'MLE' %}
+		<li>
+	     <a class="url" href="{{ site.url }}{{ post.url }}"> 
+			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
+			<br>
+		</br>
+			{% if post.excerpt != post.content %}
+			<a class="url" href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}<h4>Read more</h4></a>
+{% endif %}
+		</li>
+		<br>
+    		
+		{% endif %}
+	  {% endfor %}
+
+		
+		<h3>Analytics Applications and Business Intelligence</h3> 
+
+	  {% for post in site.posts %}
+		{% if post.title contains 'ABI' %}
+		<li>
+	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
+			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
+			<br>
+		</br>
+			{% if post.excerpt != post.content %}
+			<a class="url" href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}<h4><em>Read more</em></h4></a>
+{% endif %}
+		</li>
+		<br>
+		{% endif %}
+	  {% endfor %}
+		
+		<h3>Machine Learning</h3> 
 
 	  {% for post in site.posts %}
 		{% if post.title contains 'ML' %}
@@ -32,24 +86,7 @@ layout: default
 		{% endif %}
 	  {% endfor %}
 
-		
-		<h3>Statistical Methods For Data Science</h3> 
 
-	  {% for post in site.posts %}
-		{% if post.title contains 'SL' %}
-		<li>
-	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
-			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
-			<br>
-		</br>
-			{% if post.excerpt != post.content %}
-			<a class="url" href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}<h4><em>Read more</em></h4></a>
-{% endif %}
-		</li>
-		<br>
-		{% endif %}
-	  {% endfor %}
-		
 		<h3>Deep Learning</h3> 
 
 	  {% for post in site.posts %}
@@ -67,27 +104,28 @@ layout: default
 		{% endif %}
 	  {% endfor %}
 
-		<h3>MLOps & Cloud Data Engineering</h3> 
+		<h3>Artificial Intelligence</h3> 
 
 	  {% for post in site.posts %}
-		{% if post.title contains 'DE' %}
+		{% if post.title contains 'AI' %}
 		<li>
-	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
+	     <a class="url" href="{{ site.url }}{{ post.url }}"> 
 			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
 			<br>
 		</br>
 			{% if post.excerpt != post.content %}
-			<a class="url" href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}<h4><em>Read more</em></h4></a>
+			<a class="url" href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}<h4>Read more</h4></a>
 {% endif %}
 		</li>
 		<br>
+    		
 		{% endif %}
 	  {% endfor %}
 		
 		<h3>Affective Computing</h3> 
 
 	  {% for post in site.posts %}
-		{% if post.title contains 'CC' %}
+		{% if post.title contains 'AC' %}
 		<li>
 	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
 			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
@@ -118,24 +156,6 @@ layout: default
 		{% endif %}
 	  {% endfor %} 
 	
-	---
-		<h3>Artificial Intelligence</h3> 
-
-	  {% for post in site.posts %}
-		{% if post.title contains 'AI' %}
-		<li>
-	     <a class="url" href="{{ site.url }}{{ post.url }}"> 
-			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
-			<br>
-		</br>
-			{% if post.excerpt != post.content %}
-			<a class="url" href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}<h4>Read more</h4></a>
-{% endif %}
-		</li>
-		<br>
-    		
-		{% endif %}
-	  {% endfor %}
 
 		<h3>Strategy and Innovation</h3> 
 

@@ -122,6 +122,23 @@ layout: default
 		{% endif %}
 	  {% endfor %}
 		
+		<h3>Strategy and Innovation</h3> 
+
+	  {% for post in site.posts %}
+		{% if post.title contains 'SI' %}
+		<li>
+	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
+			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
+			<br>
+		</br>
+			{% if post.excerpt != post.content %}
+			<a class="url" href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}<h4><em>Read more</em></h4></a>
+{% endif %}
+		</li>
+		<br>
+		{% endif %}
+	  {% endfor %}
+
 		<h3>Blockchain Systems / Distributed Ledger Technology</h3> 
 
 	  {% for post in site.posts %}
@@ -140,23 +157,6 @@ layout: default
 	  {% endfor %} 
 	
 
-		<h3>Strategy and Innovation</h3> 
-
-	  {% for post in site.posts %}
-		{% if post.title contains 'SI' %}
-		<li>
-	    	 <a class="url" href="{{ site.url }}{{ post.url }}"> 
-			{{ post.date | date: "%b %d %Y" }} - {{ post.title }}</a>
-			<br>
-		</br>
-			{% if post.excerpt != post.content %}
-			<a class="url" href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt }}<h4><em>Read more</em></h4></a>
-{% endif %}
-		</li>
-		<br>
-		{% endif %}
-	  {% endfor %}
-		
 		
 		<h3>Blockchain Innovation and Decentralized Finance</h3> 
 	  {% for post in site.posts %}

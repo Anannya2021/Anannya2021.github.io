@@ -26,16 +26,20 @@ footer-links:
   dribbble:
   email: ad18.tk@gmail.com  
   facebook:
-  flickr:
+  medium: anannya
   github: Anannya2021
   instagram:
-  linkedin:
+  linkedin: aanannya
+  spotify: anannya
+  youtube: https://www.youtube.com/@LiminalSpaceClub
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: 
+  twitter: VulnerableYb
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
   website: # https://rs19gemini.wixsite.com/bevulnerable
+
+# Display links for next and previous posts for the specified categories
+post-advance-links: [blog]
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts

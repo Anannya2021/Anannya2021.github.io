@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Contents
+title: Topics
 ---
 
 
 
-## Topics
+
 
 * [Module 1: Introduction](#module-1-introduction)
 * [Module 2: Containerization and Infrastructure as Code](#module-2-containerization-and-infrastructure-as-code)

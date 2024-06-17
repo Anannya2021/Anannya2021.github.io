@@ -3,12 +3,7 @@ layout: post
 title: Contents
 ---
 
-# Data Engineering Free Course
 
-These notes form a concise course on data engineering.
-{% marginnote 'mn-id-whatever' 'The notes are still **under construction**!
-Since these notes are newly drafted and curated, you may find several typos. If you do, please let us know, or submit a pull request with your fixes to my [Github repository](https://github.com/deepgenerativemodels/notes).'%}
-You too may help make these notes better by submitting your improvements to via [Github](https://github.com/deepgenerativemodels/notes).
 
 ## Topics
 

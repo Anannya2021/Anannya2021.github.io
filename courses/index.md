@@ -1,29 +1,43 @@
 ---
-layout: post
-title: Topics
+layout: default
+
 ---
+	<h1>{{ page.title }}</h1>
+	<ul class="posts">
+	<body style="background-image: url('images/background.png');">	
+		 <!-- Google Translate -->
+  <div id="google_translate_element"></div>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+    }
+  </script>
+		<body style="background-image: url('images/background.png');">
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  
+		<h3>Data Engineering</h3> 
+    
+  
+This is a online course delivered on zoom for data engineering
 
 
+* [Module 1: Introduction](#module-1-introduction) <br><br>
+* [Module 2: Containerization and Infrastructure as Code](#module-2-containerization-and-infrastructure-as-code) <br><br>
+* [Module 3: Workflow Orchestration](#module-3-workflow-orchestration) <br><br>
+* [Workshop 1: Data Ingestion](#workshop-1-data-ingestion) <br><br>
+* [Module 4: Data Warehouse](#module-4-data-warehouse) <br><br>
+* [Module 5: Analytics Engineering](#module-5-analytics-engineering) <br><br>
+* [Module 6: Batch processing](#module-6-batch-processing) <br><br>
+* [Module 7: Streaming](#module-7-streaming) <br><br>
+* [Workshop 2: Stream Processing with SQL](#workshop-2-stream-processing-with-sql) <br><br>
+* [Project](#project) <br><br>
 
 
+ [Module 1: Introduction](introduction/) <br><br>
 
-* [Module 1: Introduction](#module-1-introduction)
-* [Module 2: Containerization and Infrastructure as Code](#module-2-containerization-and-infrastructure-as-code)
-* [Module 3: Workflow Orchestration](#module-3-workflow-orchestration)
-* [Workshop 1: Data Ingestion](#workshop-1-data-ingestion)
-* [Module 4: Data Warehouse](#module-4-data-warehouse)
-* [Module 5: Analytics Engineering](#module-5-analytics-engineering)
-* [Module 6: Batch processing](#module-6-batch-processing)
-* [Module 7: Streaming](#module-7-streaming)
-* [Workshop 2: Stream Processing with SQL](#workshop-2-stream-processing-with-sql)
-* [Project](#project)
-
-## Syllabus
-
-### [Module 1: Introduction](introduction/)
-
-* Course overview
-* Introduction to Azure services
+* Course overview <br><br>
+* Introduction to Azure services <br><br>
 
 
 [More details](introduction/index.md/)

@@ -8,7 +8,13 @@ layout: default
 It's good to talk, and I'd love to hear from you. Reach out by sending a quick
 message via the form below. If you want a call back..... be sure to include your number.
 
+
+
+
 <form name="contact" method="post" action="/thank-you" netlify>
+
+<div data-tf-live="01K35T7QXFSC8D0D92GGFY5KTB"></div><script src="//embed.typeform.com/next/embed.js"></script>
+
 
     <label for="name">Your Name</label>
     <input type="text" name="name" required/><br><br>

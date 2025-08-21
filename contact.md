@@ -13,7 +13,7 @@ message via the form below. If you want a call back..... be sure to include your
 
 <form name="contact" method="post" action="/thank-you" netlify>
 
-<div data-tf-live="01K35T7QXFSC8D0D92GGFY5KTB"></div><script src="//embed.typeform.com/next/embed.js"></script>
+
 
 
     <label for="name">Your Name</label>
